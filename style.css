@@ -1,0 +1,115 @@
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    max-width: 360px;
+    max-height: 763px;
+    margin: 0;
+    padding: 0;
+}
+
+    .title__body {
+        /* border: 1px solid red; */
+    }
+
+        .title__header, header{
+            display: flex;
+            justify-content: space-between;
+            width: 360px;
+            height: 62px;
+            /* border: 1px solid red; */
+        }
+
+            .header__menu {
+                padding-top: 22px;
+                padding-bottom: 20px;
+                padding-left: 10px;
+            }
+
+            .header__logo {
+                padding-top: 11.97px;
+                padding-bottom: 14.97px;
+            }
+
+            .header__telephone, telephone {
+                /* border: 1px solid rgb(23, 250, 166); */
+            }
+
+                .telephone__button {
+                    padding-top: 16px;
+                    padding-bottom: 13.5px;
+                    padding-right: 10px;
+                }
+
+                .telephone__icon {
+                    /* border: 1px solid rgb(167, 42, 245); */
+                    position: relative;
+                    bottom: 28px;
+                    left: 17.9px;
+                }
+
+        .title__article, article {
+
+        }
+
+            .article__picture {
+                width: 447px;
+                height: 299px;
+                flex-shrink: 0;
+                padding: 73px -51px 391px -36px;
+                /* border: 1px solid rgb(36, 183, 168); */
+            }
+
+            .article__info {
+                padding: 29px 3px 50px 7px;
+                /* border: 1px solid rgb(211, 13, 229); */
+            }
+
+                .article__info_normal {
+                    color: #2A2367;
+                    font-weight: 400;
+                }
+
+                .article__info_blot {
+                    color: #6B5AF9;
+                    font-weight: 700;
+                }
+
+            .article__button {
+                /* border: 1px solid rgb(60, 16, 236); */
+                
+            }
+
+                .article__button_image {
+                    position: relative;
+                    display: inline-block;
+                    right: 43px;
+                    left: 42px;
+                }
+
+                    .button_text {
+                        font-weight: 800;
+                        color: #fff;
+                        position: absolute;
+                        bottom: 38px;
+                        top: 22px;
+                        left: 78px;
+                    }
+
+            .article__application, application {
+                text-align: center;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 137.4%; 
+                padding: 0 10px 102px;
+                /* border: 1px solid rgb(19, 214, 239); */
+            }
+
+                .application__firstPart {
+                    color: var(--2, #6B5AF9);
+                }
+
+                .application__secondPart {
+                    color: var(--1, #2A2367);
+                }
