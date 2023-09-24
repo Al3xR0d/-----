@@ -1,62 +1,60 @@
 <!DOCTYPE html>
-<html lang="ru">
-<link>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang = "ru">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>Макет</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
             <header class = "header">
-                <button class = "header__menu-button">
-                    <img class = "menu-button" src = "pictures/menu.png" alt = "Меню">
+                <button class = "menu-button">
+                    <img class = "picture-menu" src = "pictures/menu.png" alt = "Меню">
                 </button>
-                <div class = "header__logo">
                     <img class = "logo" src = "pictures/logo.png" alt = "Логотип">
-                </div>
-                <div class = "header__navigation">
-                    <ul class = "navigation-list">
+                <nav class = "navigation">
+                    <ul class = "navigation__links">
                         <li><a href = "#">Главная</a></li>
                         <li><a href = "#">Цены</a></li>
                         <li><a href = "#">Кейсы и отзывы</a></li>
                         <li><a href = "#">Контакты</a></li>
                         </ul>
-                </div>
-                <div class = "header__telephone">
-                    <div class = "header__social">
-                        <ul class = "social-list">
-                            <li class = "social__item telegram">
+                </nav>
+                <div class = "info-bar">
+                    <div class = "info-bar__content">
+                        <ul class = "info-bar__links">
+                            <li class = "info-bar__social-media">
                                 <a href = "#"><img src = "pictures/telegram.svg" alt = "Telegram"></img></a>
                             </li>
-                            <li class = "social__item whatsapp">
+                            <li class = "info-bar__social-media">
                                 <a href = "#"><img src = "pictures/whatsapp.svg" alt = "WhatsApp"></a>
                             </li>
-                            </ul>
-                            <div class = "header__info">
-                                <a class = "info-telephone">+ 7 (495) 555 65 65</a>
-                                <span class = "info-worktime">Ежедневно с 09:00 до 18:00</span>
-                            </div>
+                        </ul>
+                        <div class = "info-bar__info">
+                                <a href = "tel:+74955556565" class = "info-bar__telephone">+ 7 (495) 555 65 65</a>
+                                <span class = "info-bar__worktime">Ежедневно с 09:00 до 18:00</span>
+                        </div>
                     </div>
-                    <button class = "telephone__button">
-                        <img class = "telephone__icon" src = "pictures/telephone_icon.png" alt = "Иконка телефона для кнопки">
-                        <span class = "telephone__call">Заказать звонок</span>
+                    <button class = "info-bar__button">
+                        <img class = "info-bar__button--small" src = "pictures/telephone_icon.png" alt = "Иконка телефона для кнопки">
+                        <span class = "info-bar__button--big">Заказать звонок</span>
                     </button> 
                 </div>
             </header>
             <main class = "content">
-            <div class = "title__main main">
-                <h1 class = "main__title">Разработка интернет-магазинов <span class = "text-marked">на 1C-Битрикс</span></h1>
-                <div class = "main__picture">
-                    <img class = "picture-img" src = "pictures/picture.png" alt = "Пример дизайна">
+            <div class = "advertisement">
+                <h1 class = "advertisement__text">Разработка интернет-магазинов <span class = "advertisement__text--marked">на 1C-Битрикс</span></h1>
+                <div class = "advertisement__picture">
+                    <img class = "advertisement__img" src = "pictures/picture.png" alt = "Пример дизайна">
                 </div>
             </div>
-            <div class = "footer">
-                    <p class = "main__info_normal">Разработаем интернет-магазин за 30 дней с уникальным дизайном и продуманной структурой который <b class = "main__info_blot">выделит вас на фоне конкурентов</b>
-                    </p>
-                <button class = "main__button">Узнать стоимость</button>
-                    <p class = "application__firstPart">Оставьте заявку и получите бесплатную консультацию от специалиста, полный расчет стоимости разработки и бонус:
-                <br><span class = "application__secondPart">«15 сервисов которые покажут стратегию продвижения конкурентов, всё об их выдаче в поиске и не только»</span></p>
+            <div class = "order">
+                <p class = "order__promises">Разработаем интернет-магазин за 30 дней с уникальным дизайном и продуманной структурой который <b class = "order__promises--blot">выделит вас на фоне конкурентов</b>
+                </p>
+                <button class = "order__button">Узнать стоимость</button>
+                <p class = "order__text">Оставьте заявку и получите бесплатную консультацию от специалиста, полный расчет стоимости разработки и бонус:
+                <br><span class = "order__text--not-marked">«15 сервисов которые покажут стратегию продвижения конкурентов, всё об их выдаче в поиске и не только»</span></p>
             </div>
         </main>
 
