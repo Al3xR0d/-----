@@ -443,6 +443,11 @@ font-size: 14px;
 width: 472px;
 padding-top: 20px;
 }
+
+.sidebar {
+display: none;
+}
+
 }
 
 @media (min-width: 1400px) {
